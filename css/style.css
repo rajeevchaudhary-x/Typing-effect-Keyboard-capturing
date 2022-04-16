@@ -48,12 +48,12 @@
     }
   }
   
-   @media (min-width: 320px){
+   @media (max-width: 320px){
     .comp{
 
         height: 5rem !important;
     background-repeat: no-repeat !important;
-    margin-left: 22rem !important;
+    margin-left: 24rem !important;
     margin-top: 5px !important;
     /* width: 260px; */
     position: fixed !important;
