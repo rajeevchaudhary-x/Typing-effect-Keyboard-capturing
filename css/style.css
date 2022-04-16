@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -20,7 +21,7 @@
 
 
 
-@media (max-width: 768px){
+@media (min-width: 668px) and (max-width:800px){
     body {
       background-color: rgb(194, 247, 22);
       /* height: 600px; */
@@ -47,22 +48,22 @@
     }
   }
   
-   @media (max-width: 320px){
+  @media (min-width: 320px) and (max-width:480px){
     .comp{
 
-        height: 5rem !important;
-    background-repeat: no-repeat !important;
-    margin-left: 17rem !important;
-    margin-top: 5px !important;
-    /* width: 260px; */
-    position: fixed !important;
+        height: 9rem !important;
+        background-repeat: no-repeat !important;
+        margin-left: 5rem !important;
+        margin-top: 5px !important;
+        /* width: 260px; */
+        position: fixed !important;
     }
     #obj{
        
-        height: 2rem;
-        width: 3rem;
-        margin-top: -23rem;
-        margin-left: -104px;
+        height: 4rem;
+        width: 5rem;
+        margin-top: -21rem;
+        margin-left: -87px;
 
     }
     .head{
