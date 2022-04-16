@@ -21,7 +21,7 @@
 
 
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width:1024px) {
     body {
       background-color: rgb(194, 247, 22);
       /* height: 600px; */
@@ -45,6 +45,30 @@
     }
     .head{
         color: white;
+    }
+  }
+  
+  @media (max-width: 320px){
+    .comp{
+
+        height: 5rem !important;
+    background-repeat: no-repeat !important;
+    margin-left: 8rem !important;
+    margin-top: 5px !important;
+    /* width: 260px; */
+    position: fixed !important;
+    }
+    #obj{
+       
+        height: 3rem;
+        width: 3rem;
+        margin-top: -23rem;
+        margin-left: -104px;
+
+    }
+    .head{
+        font-size: 10px;
+        margin-top: 20px;
     }
   }
   
