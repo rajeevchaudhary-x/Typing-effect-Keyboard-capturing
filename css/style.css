@@ -20,7 +20,7 @@
 
 
 
-@media (min-width: 768px){
+@media (max-width: 768px){
     body {
       background-color: rgb(194, 247, 22);
       /* height: 600px; */
@@ -47,7 +47,7 @@
     }
   }
   
-   @media (min-width: 320px){
+   @media (max-width: 320px){
     .comp{
 
         height: 5rem !important;
