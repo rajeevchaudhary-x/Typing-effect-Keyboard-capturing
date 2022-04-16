@@ -53,14 +53,14 @@
 
         height: 5rem !important;
     background-repeat: no-repeat !important;
-    margin-left: 15rem !important;
+    margin-left: 17rem !important;
     margin-top: 5px !important;
     /* width: 260px; */
     position: fixed !important;
     }
     #obj{
        
-        height: 30rem;
+        height: 2rem;
         width: 3rem;
         margin-top: -23rem;
         margin-left: -104px;
